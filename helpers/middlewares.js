@@ -18,7 +18,7 @@ function checkFieldsPost(req, res, next) {
     }
 }
 
-module.expors = {
+module.exports = {
     mustBeInteger,
     checkFieldsPost
 }

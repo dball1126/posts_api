@@ -1,6 +1,6 @@
-const filename = require('../data/posts.json');
-let posts = require(filename)
-const helper = require('../helpers/helper');
+let posts = require('../data/posts.json')
+const filename = './data/posts.json';
+const helper = require('../helpers/helper.js');
 
 function getPosts() {
     return new Promise((resolve, reject) => {
